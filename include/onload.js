@@ -1,0 +1,4 @@
+function bodyOnLoad() {
+	visdata();
+	visora();
+}

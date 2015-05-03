@@ -1,0 +1,153 @@
+body 
+{
+	font-family: "Verdana";
+	font-size: 12px;
+	background-color: #000000;
+	color: #CCCCCC;
+}
+
+p 
+{
+	font-family: "Verdana";
+	font-size: 12px;
+	color: #CCCCCC;
+}
+
+p.normale
+{
+	text-align: justify;
+}
+
+td 
+{
+	font-family: "Verdana";
+	font-size: 12px;
+	color: #CCCCCC;
+	vertical-align: top;
+}
+
+td.dati {
+	border: solid 1px #888888;
+}
+
+a 
+{
+	color: #FFFF99;
+}
+
+a:hover 
+{
+	color: #6666FF;
+}
+
+a:visited 
+{
+	color: #FFFF99;
+}
+
+a:visited:hover 
+{
+	color: #6666FF;
+}
+
+a:active 
+{
+	color: #00FFFF;
+}
+
+a:active:hover 
+{
+	color: #6666FF;
+}
+
+a#notc
+{
+	position: fixed;
+	left: 0;
+	top: 0;
+	display: block;
+	height: 80px;
+	width: 80px;
+	background: url(/images/notc.png) top left no-repeat;
+	text-indent: -999em;
+	text-decoration: none;
+}
+
+a#bl
+{
+	position: fixed;
+	right: 0;
+	top: 0;
+	display: block;
+	height: 80px;
+	width: 80px;
+	background: url(/images/bl.png) top right no-repeat;
+	text-indent: -999em;
+	text-decoration: none;
+}
+
+.small 
+{
+	font-size: 10px;
+}
+
+.big
+{
+	font-family: "Times New Roman";
+	font-size: 16px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.codice
+{
+	font-family: "Courier New";
+	font-size: 12px;
+}
+
+.bianco
+{
+	color: #FFFFFF;
+}
+
+.error
+{
+	color: #FF0000;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.success
+{
+	color: #00FF00;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.file
+{
+	color: #CCCCCC;
+	border-color: #FFFFFF;
+	background-color: #444444;
+}
+
+td.barra
+{
+	border: 2px solid;
+	height: 28px;
+	width: 500px;
+	border-color: #FCFF97;
+	background-color: #000000;
+	color: #000000;
+	text-align: left;
+	vertical-align: middle;
+}
+
+div.bar
+{
+	border-width: 0px;
+	height: 24px;
+	background-color: #DBCB33;
+	color: #DBCB33;
+	width: 500px;
+}
